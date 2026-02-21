@@ -47,6 +47,7 @@ deployment/
 │
 ├── Dockerfile               # Container build
 └── docker-compose.yml       # Local CVAT setup
+└── readme.md
 ```
 
 ---------------------------------------------------------------------
