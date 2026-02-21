@@ -79,8 +79,7 @@ Segmentation → Classification → Process–Defect map
 │   ├── function.yaml        # Nuclio function configuration
 │   ├── model_handler.py     # Model loading and inference logic
 │   ├── main.py    
-│   └── requirements.txt     # Python dependencies for Nuclio
-
+│
 ├── requirements.txt
 └── README.md
 ```
