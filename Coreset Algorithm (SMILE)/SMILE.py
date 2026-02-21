@@ -9,7 +9,7 @@ For each cluster:
     fall back to a relaxed grid-based maximin selection.
 
 The goal is to balance coverage (LHS) with diversity (maximin criterion) across clusters 
-=> Finally selected points across ensures global coverage.
+=> Finally selected points across ensuring global coverage.
 
 Designed primarily for small-k, data-scarce scenarios.
 
