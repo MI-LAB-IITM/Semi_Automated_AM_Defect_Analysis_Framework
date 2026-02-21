@@ -76,6 +76,7 @@ Segmentation → Classification → Process–Defect map
 ├── Deployment (Docker, CVAT, Nuclio)/
 │   ├── Dockerfile               # Container build
 │   └── docker-compose.yml       # Local CVAT setup
+│   └── readme.md                # check out to reproduce CVAT + Nuclio inside Docker
 │   Nuclio/
 │   ├── function.yaml        # Nuclio function configuration
 │   ├── model_handler.py     # Model loading and inference logic
