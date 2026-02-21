@@ -31,10 +31,9 @@ SMILE promotes diversity and feature-space coverage. It is designed for data sca
 ### 2. Active Learning Framework for Microstructure Segmentation
 An iterative annotation–training workflow integrating:
 
-- U-Net semantic segmentation  
-- Uncertainty-based sampling  
+- U-Net semantic segmentation   
 - Core-set selection  
-- Interactive expert correction using CVAT
+- Interactive expert correction using CVAT (Check out the __ folder for implementation)
 
 ### 3. Microstructure-Informed Defect Classification
 
