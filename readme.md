@@ -8,7 +8,7 @@ The framework is validated on AM systems and is designed to:
 
 - Reduce manual annotation effort  
 - Improve training efficiency through informed coreset selection  
-- Enable interactive model refinement for human-in-the-lop  
+- Enable interactive model refinement with human-in-the-lop  
 - Classify and Quantitatively map defects to processing parameters  
 
 This repository accompanies the manuscript:
