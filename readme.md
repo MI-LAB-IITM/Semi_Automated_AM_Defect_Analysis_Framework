@@ -47,7 +47,7 @@ A dedicated classification stage that:
 
 Defects are classified as: Porosity and Lack of fusion
 
-This enables microstructure aware differentiation of defect types beyond purely morphological cues.  
+This enables microstructure aware differentiation of defect types beyond purely morphological features.  
 
 ### 4. End-to-End Defect Quantification
 The pipeline connects:
