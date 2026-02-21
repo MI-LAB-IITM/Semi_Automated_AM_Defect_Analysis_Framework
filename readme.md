@@ -31,9 +31,9 @@ SMILE promotes diversity and feature-space coverage. It is designed for data sca
 ### 2. Active Learning Framework for Microstructure Segmentation
 An iterative annotation–training workflow integrating:
 
-- U-Net semantic segmentation   
-- Core-set selection  
-- Interactive expert correction using CVAT (Check out the __ folder for implementation)
+- U-Net semantic segmentation (Check out the Defect detection folder)  
+- Core-set (SMILE) selection (Check out the Coreset (SMILE) folder for the algorithm)
+- Interactive expert correction using CVAT (Check out the Deployment (Docker, CVAT, Nuclio) folder for implementation)
 
 ### 3. Microstructure-Informed Defect Classification
 
@@ -41,7 +41,7 @@ A dedicated classification stage that:
 
 - Extracts defect-centered patches from segmented regions
 - Incorporates etched microstructural context
-- Uses a CNN with ImageNet-pretrained initialization
+- Uses a CNN with ImageNet-pretrained initialization ( Check out Defect classification folder)
 - Applies focal loss to address class imbalance
 
 Defects are classified as: Porosity and Lack of fusion
