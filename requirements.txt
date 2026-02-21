@@ -1,0 +1,13 @@
+numpy>=1.23
+scipy>=1.10
+pandas>=1.5
+matplotlib>=3.6
+torch>=1.12
+torchvision>=0.13
+atomai>=0.7
+scikit-learn>=1.2
+scikit-image>=0.19
+opencv-python>=4.7
+Pillow>=9.4
+pyDOE2>=1.3
+tqdm>=4.65
