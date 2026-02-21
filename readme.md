@@ -39,8 +39,7 @@ An iterative annotation–training workflow integrating:
 
 A dedicated classification stage that:
 
-- Extracts defect-centered patches from segmented regions
-- Incorporates etched microstructural context
+- Extracts defect-centered patches from segmented regions and incorporates etched microstructural context
 - Uses a CNN with ImageNet-pretrained initialization ( Check out Defect classification folder)
 - Applies focal loss to address class imbalance
 
