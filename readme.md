@@ -2,14 +2,14 @@
 
 ## Overview
 
-This repository implements a two-stage semi-automated framework for quantitative defect analysis in additively manufactured (AM) materials. The pipeline integrates defect detection using active learning, microstructure aware defect classification, and mapping defects to processing parameters.
+This repository implements a two-stage semi-automated framework for quantifying defects in materials microstructures using an example dataset of additive manufacturing (AM). The pipeline includes a defect detection model trained using active learning, a microstructure-aware defect classification model, and, finally, mapping identified defects to AM processing parameters.
 
-The framework is validated on AM systems and is designed to :
+The framework is validated on AM systems and is designed to:
 
 - Reduce manual annotation effort  
 - Improve training efficiency through informed coreset selection  
-- Enable interactive model refinement with human-in-the-lop  
-- Classify and Quantitatively map defects to processing parameters  
+- Enable interactive model predicted label refinement with human-in-the-loop  
+- Classify defects, quantify them and map them to associated processing parameters  
 
 This repository accompanies the manuscript:
 
