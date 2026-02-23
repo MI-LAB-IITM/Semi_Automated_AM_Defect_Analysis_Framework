@@ -1,11 +1,13 @@
 """
 SMILE : Sampling via Maximin LHS from Embeddings
 
-This implementation selects k representative samples per cluster from a 2D embedding space (e.g., t-SNE, UMAP).
+Given 2D embedding space projection (e.g., t-SNE, UMAP) of a dataset, this function first performs
+clustering (for coverage), and then selects k representative samples (for diversity) per cluster. 
+No. of clusters and k are user parameters.
 
 For each cluster:
     1) Attempt strict Latin Hypercube Sampling (one per row and column)
-    2) If strict feasibility fails(e.g. insufficient bin coverage or no valid row–column permutation),
+    2) If strict feasibility fails (e.g. insufficient bin coverage or no valid row–column permutation),
     fall back to a relaxed grid-based maximin selection.
 
 The goal is to balance coverage (LHS) with diversity (maximin criterion) across clusters 
@@ -13,6 +15,7 @@ The goal is to balance coverage (LHS) with diversity (maximin criterion) across 
 
 Designed primarily for small-k, data-scarce scenarios.
 
+To rank ordering of clusters to be considered for active learning, xxxxx
 """
 
 import numpy as np
