@@ -13,9 +13,7 @@ workflow described in the manuscript.
 ## Demo
 
 A short demonstration of the model inference and CVAT-based
-annotation correction workflow is available here:
-
-[Video link]
+annotation correction workflow is available here: https://youtu.be/NUUbh3jES9w
 
 
 ---------------------------------------------------------------------
