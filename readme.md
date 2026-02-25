@@ -56,31 +56,31 @@ Segmentation → Classification → Process–Defect map
 
 ```
 .
-├── Coreset Algorithm (SMILE)/ # Active learning coreset selection algorithm
+├── Coreset Algorithm (SMILE)/            # Active learning coreset selection algorithm
 │   └── SMILE.py    
 │
-├── Defect Detection/          # Unet based semantic segmentation
-│   └── Segmentation_training.ipynb
-│   └── instance_seg_utils.py
-│   └── seg_model.pth
-│   └── SMILE_dataset.pkl       
+├── Defect Detection/                     # Unet based semantic segmentation
+│   └── Segmentation_training.ipynb       # Notebook for training & evaluation
+│   └── instance_seg_utils.py             # Segmentation helper functions
+│   └── seg_model.pth                     # Final trained segmentation model
+│   └── SMILE_dataset.pkl                 # SMILE-coreset selected images
 │
-├── Defect Classification/     # CNN-based defect type prediction
-│   └── Classification_training.ipynb
-│   └── Classification_test_dataset.pkl 
-│   └── class_model.pth
+├── Defect Classification/                # CNN-based defect type prediction
+│   └── Classification_training.ipynb     # Notebook for training & evaluation
+│   └── Classification_test_dataset.pkl
+│   └── class_model.pth                   # Final trained classification model
 │   └── Classification_training_dataset.pkl 
 │
 ├── Deployment (Docker, CVAT, Nuclio)/
-│   ├── Dockerfile               # Container build
-│   └── docker-compose.yml       # Local CVAT setup
-│   └── readme.md                # check out to reproduce CVAT + Nuclio inside Docker
+│   └── Dockerfile                         # Container build
+│   └── docker-compose.yml                 # Local CVAT setup
+│   └── readme.md                          # check out to reproduce CVAT + Nuclio inside Docker
 │   Nuclio/
-│   ├── function.yaml        # Nuclio function configuration
-│   ├── model_handler.py     # Model loading and inference logic
-│   ├── main.py    
+│   └── function.yaml                      # Nuclio function configuration
+│   └── model_handler.py                   # Model loading and inference logic
+│   └── main.py    
 │
-├── requirements.txt
+├── requirements.txt                       # Environment Requirements
 └── README.md
 ```
 
