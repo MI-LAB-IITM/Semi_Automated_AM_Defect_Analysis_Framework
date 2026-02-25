@@ -56,7 +56,7 @@ Segmentation → Classification → Process–Defect map
 
 ```
 .
-├── Coreset Algorithm (SMILE)/            # Active learning coreset selection algorithm
+├── Coreset Algorithm (SMILE)/              # Active learning coreset selection algorithm
 │   └── SMILE.py    
 │
 ├── Defect Detection/                       # Unet based semantic segmentation
