@@ -82,6 +82,7 @@ Segmentation → Classification → Process–Defect map
 │
 ├── requirements.txt                        # Environment Requirements
 └── README.md
+└── LICENSE
 ```
 
 
