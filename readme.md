@@ -57,7 +57,9 @@ Segmentation → Classification → Process–Defect map
 ```
 .
 ├── Coreset Algorithm (SMILE)/              # Active learning coreset selection algorithm
-│   └── SMILE.py    
+│   └── SMILE.py                            # SMILE algorithm
+│   └── SMILE_notebook.ipynb                # Sample Notebook to use SMILE algorithm
+│   └── readme.md   
 │
 ├── Defect Detection/                       # Unet based semantic segmentation
 │   └── Segmentation_training.ipynb         # Notebook for training & evaluation
