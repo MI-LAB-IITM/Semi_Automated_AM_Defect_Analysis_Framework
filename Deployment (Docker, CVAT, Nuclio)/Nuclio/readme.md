@@ -1,4 +1,4 @@
-# CVAT U-Net Defect Segmentation
+# Serverless Model Deployment using Nuclio for CVAT Annotation
 
 Nuclio serverless function for **Defect segmentation in CVAT**.  
 The function loads a trained **U-Net model** and returns **CVAT-compatible mask annotations** for uploaded images.
