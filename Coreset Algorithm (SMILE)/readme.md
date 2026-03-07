@@ -35,7 +35,7 @@ The algorithm follows four main steps:
    - **Relaxed Maximin Sampling**  
      If strict LHS is infeasible due to insufficient bin coverage, the algorithm selects samples that **maximize pairwise spacing** using a maximin criterion.
 
-This approach ensures **balanced spatial coverage and high diversity** among selected samples.
+This approach ensures **balanced coverage and diversity** among selected samples.
 
 ## Repository Structure
 
