@@ -1,5 +1,5 @@
 # SMILE
-**Sampling via Maximin Latin Hypercube Sampling from Embeddings**
+**Sampling via Maximin Latin Hypersquare Sampling from Embeddings**
 
 SMILE is a **core-set based subset selection algorithm** designed for **batch active learning and data-efficient machine learning**.  
 The method selects **diverse and representative samples** from a dataset by combining **clustering-based coverage** with **Latin Hypersquare Sampling (LHS) and a maximin diversity criterion** in a 2D embedding space.
@@ -32,7 +32,7 @@ The algorithm follows four main steps:
 4. **Subset Selection (LHS + Maximin)**  
    From each cluster, **k representative samples** are selected using:
 
-   - **Strict Latin Hypercube Sampling (LHS)**  
+   - **Strict Latin Hypersube Sampling (LHS)**  
      Ensures one sample per row and column in a k × k grid over the normalized embedding space.
 
    - **Relaxed Maximin Sampling**  
