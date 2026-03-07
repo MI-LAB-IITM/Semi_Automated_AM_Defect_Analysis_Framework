@@ -23,10 +23,7 @@ The algorithm follows four main steps:
 3. **Cluster Ranking**  
    Each cluster is ranked based on a **spread metric**, defined as the Euclidean norm of the standard deviation along both embedding dimensions:
 
-   \[
-   spread = \sqrt{\sigma_x^2 + \sigma_y^2}
-   \]
-
+   spread = sqrt(σx² + σy²)
    Clusters with higher spread represent **greater variability** and are prioritized during sampling.
 
 4. **Subset Selection (LHS + Maximin)**  
