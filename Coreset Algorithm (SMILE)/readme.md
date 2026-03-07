@@ -37,8 +37,12 @@ The algorithm follows four main steps:
 
 This approach ensures **balanced spatial coverage and high diversity** among selected samples.
 
+## Repository Structure
+
+```
 SMILE/
 │
-├── SMILE.py               # Algorithm 
-├── SMILE_notebook.ipynb   # Example notebook
-├── readme.md   
+├── SMILE.py               # Algorithm implementation
+├── SMILE_notebook.ipynb   # Example notebook demonstrating SMILE
+├── readme.md              
+```
