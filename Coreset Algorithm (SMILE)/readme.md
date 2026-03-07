@@ -24,7 +24,7 @@ The algorithm follows four main steps:
    Each cluster is ranked based on a **spread metric**, defined as the Euclidean norm of the standard deviation along both embedding dimensions:
 
    spread = sqrt(σx² + σy²)
-   Clusters with higher spread represent **greater variability** and are prioritized during sampling.
+   Clusters with higher spread represent **greater variability** and are prioritized during active learning rounds.
 
 4. **Subset Selection (LHS + Maximin)**  
    From each cluster, **k representative samples** are selected using:
@@ -36,3 +36,9 @@ The algorithm follows four main steps:
      If strict LHS is infeasible due to insufficient bin coverage, the algorithm selects samples that **maximize pairwise spacing** using a maximin criterion.
 
 This approach ensures **balanced spatial coverage and high diversity** among selected samples.
+
+SMILE/
+│
+├── SMILE.py               # Algorithm 
+├── SMILE_notebook.ipynb   # Example notebook
+├── readme.md   
